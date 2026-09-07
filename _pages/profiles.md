@@ -184,7 +184,7 @@ nav_order: 7
     </li>
     <li>
       <span class="iml-alum-name"><a href="https://jajajang.github.io/">Kyoungseok Jang</a></span>
-      <span class="iml-alum-detail">UA Postdoc, 2022–2023 → postdoc at NYU, then Università degli Studi di Milano → Assistant Professor, Chung-Ang University (2025–)</span>
+      <span class="iml-alum-detail">UA Postdoc, 2022–2023 → postdoc at NYU, then Università degli Studi di Milano <br>→ Assistant Professor, Chung-Ang University (2025–)</span>
     </li>
     <li>
       <span class="iml-alum-name">Jie Bian</span>
