@@ -12,6 +12,8 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+<p><em>(=) denotes equal contribution / co-first authorship.</em></p>
+
 <div class="publications">
 
 {% capture preprints_html %}{% bibliography --query @misc --group_by none %}{% endcapture %}
