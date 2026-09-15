@@ -116,6 +116,11 @@ nav_order: 7
       <span class="iml-role">Principal Investigator</span>
     </div>
     <div class="iml-card">
+      <div class="iml-avatar"><img src="{{ '/assets/img/members/suhyeon-cho.jpg' | relative_url }}" alt="Suhyeon Cho" loading="lazy"></div>
+      <p class="iml-name">Suhyeon Cho</p>
+      <span class="iml-role">Lab Manager</span>
+    </div>
+    <div class="iml-card">
       <div class="iml-avatar"><img src="{{ '/assets/img/members/seiyun-shin.jpg' | relative_url }}" alt="Seiyun Shin" loading="lazy"></div>
       <p class="iml-name"><a href="https://seiyun-shin.github.io/">Seiyun Shin</a></p>
       <span class="iml-role">Postdoc (Summer'26–)</span>
