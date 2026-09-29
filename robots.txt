@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://postech-iml-lab.github.io/sitemap.xml
+Sitemap: https://iml.postech.ac.kr/sitemap.xml
