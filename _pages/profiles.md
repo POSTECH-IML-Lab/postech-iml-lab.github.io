@@ -156,7 +156,7 @@ nav_order: 7
       <span class="iml-role">PhD Student, U. Arizona (2023–)</span>
     </div>
     <div class="iml-card">
-      <div class="iml-avatar">KB</div>
+      <div class="iml-avatar"><img src="{{ '/assets/img/members/kapilan-balagopalan.jpg' | relative_url }}" alt="Kapilan Balagopalan" loading="lazy"></div>
       <p class="iml-name"><a href="https://kapilan-balagopalan.github.io/">Kapilan Balagopalan</a></p>
       <span class="iml-role">PhD Student, U. Arizona (2023–)</span>
     </div>
