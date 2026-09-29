@@ -77,7 +77,6 @@ nav_order: 3
   }
 </style>
 
-
 <div class="iml-research-topic">
 <div class="iml-research-icon"><i class="fa-solid fa-comments"></i></div>
 <div class="iml-research-body">
@@ -150,10 +149,5 @@ against exploiting what already works well.
   <li>Improved unified confidence bounds for generalized linear models <span class="iml-venue">(NeurIPS '24)</span></li>
 </ul>
 
-
-
   </div>
 </div>
-
-
-

@@ -18,6 +18,7 @@ nav_order: 2
 
 {% capture preprints_html %}{% bibliography --query @misc --group_by none %}{% endcapture %}
 {% if preprints_html contains '<li' %}
+
 <h2 class="bibliography">Preprints</h2>
 {{ preprints_html }}
 {% endif %}

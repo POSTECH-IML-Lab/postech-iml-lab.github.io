@@ -188,7 +188,7 @@
       untouched.
     {% endcomment %}
     {% assign entrytype_check = entrytype | strip_html | strip %}
-    {% if entrytype_check == "" and entry.eprint %}
+    {% if entrytype_check == '' and entry.eprint %}
       {% capture entrytype %}<a href="https://arxiv.org/abs/{{ entry.eprint }}">[arXiv]</a>{% endcapture %}
     {% endif %}
     {% assign entrymonth = '' %}
@@ -430,7 +430,7 @@
       <div class="bibtex hidden">
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
-      {% endhighlight %}
+        {% endhighlight %}
       </div>
     {% endif %}
 
