@@ -1,31 +1,39 @@
-// @preamble{ " \newcommand{\noop}[1]{} " } % a do-nothing command that serves a purpose
+// @preamble{" \newcommand{\noop}[1]{} "} % a do-nothing command that serves a purpose
 
-@STRING{iclr="Proceedings of the International Conference on Learning Representations (ICLR)"}
+@string{iclr = "Proceedings of the International Conference on Learning
+                 Representations (ICLR)"}
 
-@STRING{colt="Proceedings of the Conference on Learning Theory (COLT)"}
+@string{colt = "Proceedings of the Conference on Learning Theory (COLT)"}
 
-@STRING{icml="Proceedings of the International Conference on Machine Learning (ICML)"}
+@string{icml = "Proceedings of the International Conference on Machine Learning
+                 (ICML)"}
 
-@STRING{neurips="Advances in Neural Information Processing Systems (NeurIPS)"}
+@string{neurips = "Advances in Neural Information Processing Systems (NeurIPS)"}
 
-@STRING{aistats="International Conference on Artificial Intelligence and Statistics (AISTATS)"}
+@string{aistats = "International Conference on Artificial Intelligence and
+                    Statistics (AISTATS)"}
 
-@STRING{aaai="Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)"}
+@string{aaai = "Proceedings of the AAAI Conference on Artificial Intelligence
+                 (AAAI)"}
 
-@STRING{alt="International Conference on Algorithmic Learning Theory (ALT)"}
+@string{alt = "International Conference on Algorithmic Learning Theory (ALT)"}
 
-@STRING{tmlr="Transactions on Machine Learning Research (TMLR)"}
+@string{tmlr = "Transactions on Machine Learning Research (TMLR)"}
 
-@STRING{emnlp="Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)"}
+@string{emnlp = "Proceedings of the Conference on Empirical Methods in Natural
+                  Language Processing (EMNLP)"}
 
-@STRING{naacl="Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL HLT)"}
+@string{naacl = "Proceedings of the North American Chapter of the Association
+                  for Computational Linguistics: Human Language Technologies
+                  (NAACL HLT)"}
 
-@STRING{uai="Proceedings of the Conference on Uncertainty in Artificial Intelligence (UAI)"}
+@string{uai = "Proceedings of the Conference on Uncertainty in Artificial
+                Intelligence (UAI)"}
 
-@STRING{tit="IEEE Transactions on Information Theory (TIT)"}
+@string{tit = "IEEE Transactions on Information Theory (TIT)"}
 
 
-// - preprints must appear with @misc
+// - preprints must appear with misc
 // - additional info you want to put:
 //    additional_info = {, <span class="highlight">Oral Presentation</span>}
 // - additional info appearing in a new line:
@@ -34,435 +42,508 @@
 //    award = {Selected as an oral presentation.},
 //    award_name = {Oral Presentation},
 
-@misc{lee26provably,
-  title={Provably Efficient Regularized Online RLHF with Generalized Bilinear Preferences},
-  author={Junghyun Lee and Minju Hong and Kwang-Sung Jun and Chulhee Yun and Se-Young Yun},
-  year={2026},
-  eprint={2602.23116},
-  archivePrefix={arXiv}
-}
-
-@misc{li26epsgood,
-  title={$\epsilon$-Good Action Identification in Fixed-Budget Monte Carlo Tree Search},
-  author={Li, Yinan and Nguyen, Tuan and Jun, Kwang-Sung},
-  year={2026},
-  eprint={2605.11324},
-  archivePrefix={arXiv}
+@misc{lee2026pointwise,
+  title = {Pointwise or Pairwise: When Do Pairwise Losses Help Reward Learning,
+           Provably?},
+  author = {Lee, Junghyun and {Ha (=)}, Minsoo and {Kim (=)}, Sanghwa and {Kim
+            (=)}, Yeongjong and {Lee (=)}, Eunjee and {Shin (=)}, Seiyun and Jun,
+            Kwang-Sung},
+  year = {2026},
+  eprint = {2609.37209},
+  archiveprefix = {arXiv},
 }
 
 @misc{koo25learning,
-  title={Learning Explainable Dense Reward Shapes via Bayesian Optimization},
-  author={Ryan Koo and Ian Yang and Vipul Raheja and Mingyi Hong and Kwang-Sung Jun and Dongyeop Kang},
-  year={2025},
-  eprint={2504.16272},
-  archivePrefix={arXiv}
+  title = {Learning Explainable Dense Reward Shapes via Bayesian Optimization},
+  author = {Ryan Koo and Ian Yang and Vipul Raheja and Mingyi Hong and
+            Kwang-Sung Jun and Dongyeop Kang},
+  year = {2025},
+  eprint = {2504.16272},
+  archivePrefix = {arXiv},
 }
 
 @misc{zhao26most,
-  title={Nearly Optimal Active Preference Learning and Its Application to LLM Alignment},
-  author={Zhao, Yao and Jun, Kwang-Sung},
-  booktitle={in preparation},
-  year={2026},
-  eprint={2602.01581},
-  archivePrefix={arXiv}
+  title = {Nearly Optimal Active Preference Learning and Its Application to LLM
+           Alignment},
+  author = {Zhao, Yao and Jun, Kwang-Sung},
+  booktitle = {in preparation},
+  year = {2026},
+  eprint = {2602.01581},
+  archivePrefix = {arXiv},
 }
 
-@misc{yun25alignment,
-  title={Beyond RLHF: A Unified Theoretical Framework of Alignment}, 
-  author={Jihun Yun and Juno Kim and Jongho Park and Junhyuck Kim and Jongha Jon Ryu and Jaewoong Cho and Kwang-Sung Jun},
-  year={2025},
-  eprint={2506.01523},
-  archivePrefix={arXiv}
+@inproceedings{lee26provably,
+  title = {Provably Efficient Regularized Online RLHF with Generalized Bilinear
+           Preferences},
+  author = {Junghyun Lee and Minju Hong and Kwang-Sung Jun and Chulhee Yun and
+            Se-Young Yun},
+  booktitle = neurips,
+  year = {2026},
 }
 
+@inproceedings{li26epsgood,
+  title = {$\epsilon$-Good Action Identification in Fixed-Budget Monte Carlo
+           Tree Search},
+  author = {Li, Yinan and Nguyen, Tuan and Jun, Kwang-Sung},
+  booktitle = neurips,
+  year = {2026},
+}
 
+@inproceedings{yun25alignment,
+  title = {Beyond RLHF: A Unified Theoretical Framework of Alignment},
+  author = {Jihun Yun and Juno Kim and Jongho Park and Junhyuck Kim and Jongha
+            Jon Ryu and Jaewoong Cho and Kwang-Sung Jun},
+  booktitle = neurips,
+  year = {2026},
+}
 
 @article{qin26achieving,
-title={Achieving Adaptivity and Optimality for Multi-armed Bandits using Exponential-Kullback Leibler Maillard Sampling},
-author={Hao Qin and Kwang-Sung Jun and Chicheng Zhang},
-journal=tmlr,
-issn={2835-8856},
-year={2026}
+  title = {Achieving Adaptivity and Optimality for Multi-armed Bandits using
+           Exponential-Kullback Leibler Maillard Sampling},
+  author = {Hao Qin and Kwang-Sung Jun and Chicheng Zhang},
+  journal = tmlr,
+  issn = {2835-8856},
+  year = {2026},
 }
 
-@InProceedings{li26second,
-  title = 	 {Second-Order Bounds for $[0,1]$-Valued Regression via Betting Loss},
-  author =       {Li, Yinan and Yoon, Sungjoon and Huang, Ethan and Jun, Kwang-Sung},
-  booktitle = 	 colt,
-  pages = 	 {4674--4721},
-  year = 	 {2026},
+@inproceedings{li26second,
+  title = {Second-Order Bounds for $[0,1]$-Valued Regression via Betting Loss},
+  author = {Li, Yinan and Yoon, Sungjoon and Huang, Ethan and Jun, Kwang-Sung},
+  booktitle = colt,
+  pages = {4674--4721},
+  year = {2026},
 }
 
 
 @inproceedings{kim26coverage,
-  title={Coverage Improvement and Fast Convergence of On-policy Preference Learning},
-  author={Juno Kim and Jihun Yun and Jason D. Lee and Kwang-Sung Jun},
-  booktitle=icml,
-  year={2026}
+  title = {Coverage Improvement and Fast Convergence of On-policy Preference
+           Learning},
+  author = {Juno Kim and Jihun Yun and Jason D. Lee and Kwang-Sung Jun},
+  booktitle = icml,
+  year = {2026},
 }
 
 @inproceedings{balagopalan26fixed,
-  title={Fixed Budget is No Harder Than Fixed Confidence in Best-Arm Identification up to Logarithmic Factors},
-  author={Kapilan {Balagopalan (=)} and Yinan {Li (=)} and Yao Zhao and Tuan Ngo Nguyen and Anton Daitche and Houssam Nassif and Kwang-Sung Jun},
-  booktitle=icml,
-  year={2026}
+  title = {Fixed Budget is No Harder Than Fixed Confidence in Best-Arm
+           Identification up to Logarithmic Factors},
+  author = {Kapilan {Balagopalan (=)} and Yinan {Li (=)} and Yao Zhao and Tuan
+            Ngo Nguyen and Anton Daitche and Houssam Nassif and Kwang-Sung Jun},
+  booktitle = icml,
+  year = {2026},
 }
 
 @inproceedings{kim26instance,
-  title={Instance-Dependent Fixed-Budget Pure Exploration in Reinforcement Learning},
-  author={Yeongjong Kim and Yeoneung Kim and Kwang-Sung Jun},
-  booktitle=iclr,
-  year={2026}
+  title = {Instance-Dependent Fixed-Budget Pure Exploration in Reinforcement
+           Learning},
+  author = {Yeongjong Kim and Yeoneung Kim and Kwang-Sung Jun},
+  booktitle = iclr,
+  year = {2026},
 }
 
 @inproceedings{lee26gllowpopart,
-  title={GL-LowPopArt: A Nearly Instance-Wise Minimax Estimator for (Adaptive) Generalized Linear Low-Rank Trace Regression},
-  author={Lee, Junghyun and Jang, Kyoungseok and Jun, Kwang-Sung  and Vojnovic, Milan and Yun, Se-Young},
-  booktitle=aistats,
-  year={2026}
+  title = {GL-LowPopArt: A Nearly Instance-Wise Minimax Estimator for (Adaptive)
+           Generalized Linear Low-Rank Trace Regression},
+  author = {Lee, Junghyun and Jang, Kyoungseok and Jun, Kwang-Sung and Vojnovic,
+            Milan and Yun, Se-Young},
+  booktitle = aistats,
+  year = {2026},
 }
 
 @inproceedings{balagopalan25fixing,
-  title={Fixing the Loose Brake: Exponential-Tailed Stopping Time in Best Arm Identification},
-  author={{Balagopalan (=)}, Kapilan and {Nguyen (=)}, Tuan Ngo and {Zhao (=)}, Yao and Jun, Kwang-Sung},
-  booktitle=icml,
-  year={2025}
+  title = {Fixing the Loose Brake: Exponential-Tailed Stopping Time in Best Arm
+           Identification},
+  author = {{Balagopalan (=)}, Kapilan and {Nguyen (=)}, Tuan Ngo and {Zhao (=)}
+            , Yao and Jun, Kwang-Sung},
+  booktitle = icml,
+  year = {2025},
 }
 
 @inproceedings{ryu25improved,
-  title={Improved Offline Contextual Bandits with Second-Order Bounds: Betting and Freezing},
-  author={Ryu, J. Jon and Kwon, Jeongyeol and Koppe, Benjamin and Jun, Kwang-Sung Jun},
-  booktitle=colt,
-  pages = 	 {5015--5053},
-  year={2025},
-  video={https://www.youtube.com/watch?v=Stm_bAyAaQ4}
+  title = {Improved Offline Contextual Bandits with Second-Order Bounds: Betting
+           and Freezing},
+  author = {Ryu, J. Jon and Kwon, Jeongyeol and Koppe, Benjamin and Jun,
+            Kwang-Sung Jun},
+  booktitle = colt,
+  pages = {5015--5053},
+  year = {2025},
+  video = {https://www.youtube.com/watch?v=Stm_bAyAaQ4},
 }
 
 @inproceedings{nguyen25haver,
-  author={Nguyen, Tuan Ngo and Barrett, Jay and Jun, Kwang-Sung},
+  author = {Nguyen, Tuan Ngo and Barrett, Jay and Jun, Kwang-Sung},
   booktitle = aistats,
-  title = {HAVER: Instance-Dependent Error Bounds for Maximum Mean Estimation and Applications to Q-Learning},
-  year = {2025}
+  title = {HAVER: Instance-Dependent Error Bounds for Maximum Mean Estimation
+           and Applications to Q-Learning},
+  year = {2025},
 }
 
 @inproceedings{balagopalan25minimum,
-  author={Balagopalan, Kapilan and Jun, Kwang-Sung},
-  booktitle = {International Conference on Artificial Intelligence and Statistics (AISTATS)},
+  author = {Balagopalan, Kapilan and Jun, Kwang-Sung},
+  booktitle = {International Conference on Artificial Intelligence and
+               Statistics (AISTATS)},
   title = {Minimum Empirical Divergence for Sub-Gaussian Linear Bandits},
-  year = {2025}
+  year = {2025},
 }
 
 @inproceedings{zhao24adaptive,
-  title={Adaptive Experimentation When You Can't Experiment},
-  author={Zhao, Yao and Jun, Kwang-Sung and Fiez, Tanner and Jain, Lalit},
+  title = {Adaptive Experimentation When You Can't Experiment},
+  author = {Zhao, Yao and Jun, Kwang-Sung and Fiez, Tanner and Jain, Lalit},
   booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
-  year={2024}
+  year = {2024},
 }
 
 @inproceedings{lee24unified,
-  title={A Unified Confidence Sequence for Generalized Linear Models, with Applications to Bandits},
-  author={Lee, Junghyun and Yun, Se-Young and Jun, Kwang-Sung},
+  title = {A Unified Confidence Sequence for Generalized Linear Models, with
+           Applications to Bandits},
+  author = {Lee, Junghyun and Yun, Se-Young and Jun, Kwang-Sung},
   booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
-  year={2024},
-  note = {<span class="highlight">Oral Presentation</span> at ICML’24 Workshop on Aligning Reinforcement Learning Experimentalists and Theorists}
+  year = {2024},
+  note = {<span class="highlight">Oral Presentation</span> at ICML’24 Workshop
+          on Aligning Reinforcement Learning Experimentalists and Theorists},
 }
 
 @article{park24transfer,
-  author={Park, Hyejin and Shin, Seiyun and Jun, Kwang-Sung and Ok, Jungseul},
-  journal={IEEE Transactions on Information Theory}, 
-  title={Transfer Learning in Bandits With Latent Continuity}, 
-  year={2024},
-  volume={70},
-  number={11},
-  pages={7952-7970},
-  doi_={10.1109/TIT.2024.3441669}
+  author = {Park, Hyejin and Shin, Seiyun and Jun, Kwang-Sung and Ok, Jungseul},
+  journal = {IEEE Transactions on Information Theory},
+  title = {Transfer Learning in Bandits With Latent Continuity},
+  year = {2024},
+  volume = {70},
+  number = {11},
+  pages = {7952-7970},
+  doi_ = {10.1109/TIT.2024.3441669},
 }
 
 @inproceedings{kuzborskij24better,
-  title={Better-than-KL PAC-Bayes Bounds},
-  author={Kuzborskij, Ilja and Jun, Kwang-Sung and Wu, Yulian and Jang, Kyoungseok and and Orabona, Francesco},
-  booktitle={Proceedings of the Conference on Learning Theory (COLT)},
-  ccf22={},
-  year={2024},
+  title = {Better-than-KL PAC-Bayes Bounds},
+  author = {Kuzborskij, Ilja and Jun, Kwang-Sung and Wu, Yulian and Jang,
+            Kyoungseok and and Orabona, Francesco},
+  booktitle = {Proceedings of the Conference on Learning Theory (COLT)},
+  ccf22 = {},
+  year = {2024},
 }
 
 @inproceedings{jang24efficient,
-  title={Efficient Low-Rank Matrix Estimation, Experimental Design, and Arm-Set-Dependent Low-Rank Bandits},
-  author={Jang, Kyoungseok and Zhang, Chicheng and Jun, Kwang-Sung},
-  booktitle={Proceedings of the International Conference on Machine Learning (ICML)},
-  ccf22={},
-  year={2024},
-  code={https://github.com/jajajang/lowpopart},
-  video={https://youtu.be/OWvxJ32n6ME?si=RHVWe4zyHOHjABzS},
+  title = {Efficient Low-Rank Matrix Estimation, Experimental Design, and
+           Arm-Set-Dependent Low-Rank Bandits},
+  author = {Jang, Kyoungseok and Zhang, Chicheng and Jun, Kwang-Sung},
+  booktitle = {Proceedings of the International Conference on Machine Learning
+               (ICML)},
+  ccf22 = {},
+  year = {2024},
+  code = {https://github.com/jajajang/lowpopart},
+  video = {https://youtu.be/OWvxJ32n6ME?si=RHVWe4zyHOHjABzS},
 }
 
 @inproceedings{jun24noise,
-  title={Noise-Adaptive Confidence Sets for Linear Bandits and Application to Bayesian Optimization},
-  author={Jun, Kwang-Sung and Kim, Jungtaek},
-  booktitle={Proceedings of the International Conference on Machine Learning (ICML)},
-  ccf22_={},
-  year={2024}
+  title = {Noise-Adaptive Confidence Sets for Linear Bandits and Application to
+           Bayesian Optimization},
+  author = {Jun, Kwang-Sung and Kim, Jungtaek},
+  booktitle = {Proceedings of the International Conference on Machine Learning
+               (ICML)},
+  ccf22_ = {},
+  year = {2024},
 }
 
 @inproceedings{lee24improved,
-  title={Improved Regret Bounds of (Multinomial) Logistic Bandits via Regret-to-Confidence-Set Conversion},
-  author={Junghyun Lee and Se-Young Yun and Kwang-Sung Jun},
-  booktitle={International Conference on Artificial Intelligence and Statistics (AISTATS)},
-  ccf22={},
-  year={2024},
-  code={https://github.com/nick-jhlee/logistic_bandit}
+  title = {Improved Regret Bounds of (Multinomial) Logistic Bandits via
+           Regret-to-Confidence-Set Conversion},
+  author = {Junghyun Lee and Se-Young Yun and Kwang-Sung Jun},
+  booktitle = {International Conference on Artificial Intelligence and
+               Statistics (AISTATS)},
+  ccf22 = {},
+  year = {2024},
+  code = {https://github.com/nick-jhlee/logistic_bandit},
 }
 
 @article{orabona24tight,
-  author={Orabona, Francesco and Jun, Kwang-Sung},
-  journal={IEEE Transactions on Information Theory}, 
-  title={Tight Concentrations and Confidence Sequences From the Regret of Universal Portfolio}, 
-  year={2024},
-  volume={70},
-  number={1},
-  pages={436-455},
-  doi_={10.1109/TIT.2023.3330187}
+  author = {Orabona, Francesco and Jun, Kwang-Sung},
+  journal = {IEEE Transactions on Information Theory},
+  title = {Tight Concentrations and Confidence Sequences From the Regret of
+           Universal Portfolio},
+  year = {2024},
+  volume = {70},
+  number = {1},
+  pages = {436-455},
+  doi_ = {10.1109/TIT.2023.3330187},
 }
 
 @inproceedings{qin23kullback,
-author={Hao Qin and Kwang-Sung Jun and Chicheng Zhang},
-booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
-title = {{Kullback-Leibler Maillard Sampling for Multi-armed Bandits with Bounded Rewards}},
-year = {2023}
+  author = {Hao Qin and Kwang-Sung Jun and Chicheng Zhang},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  title = {{Kullback-Leibler Maillard Sampling for Multi-armed Bandits with
+           Bounded Rewards}},
+  year = {2023},
 }
 
 @article{zhao23revisiting,
-  title={Revisiting Simple Regret: Fast Rates for Returning a Good Arm},
-  author={Zhao, Yao and Stephens, Connor and Szepesv{\'a}ri, Csaba and Jun, Kwang-Sung},
-  journal = {Proceedings of the International Conference on Machine Learning (ICML)},
-  year = {2023}
+  title = {Revisiting Simple Regret: Fast Rates for Returning a Good Arm},
+  author = {Zhao, Yao and Stephens, Connor and Szepesv{\'a}ri, Csaba and Jun,
+            Kwang-Sung},
+  journal = {Proceedings of the International Conference on Machine Learning
+             (ICML)},
+  year = {2023},
 }
 
 @inproceedings{jang23tighter,
-  title={Tighter PAC-Bayes bounds through coin-betting},
-  author={Jang, Kyoungseok and Jun, Kwang-Sung and Kuzborskij, Ilja and Orabona, Francesco},
-  booktitle={Proceedings of the Conference on Learning Theory (COLT)},
-  year={2023},
-  note = {<span class="highlight">Oral Presentation</span> at ICML’23 Workshop on PAC-Bayes Meets Interactive Learning}
+  title = {Tighter PAC-Bayes bounds through coin-betting},
+  author = {Jang, Kyoungseok and Jun, Kwang-Sung and Kuzborskij, Ilja and
+            Orabona, Francesco},
+  booktitle = {Proceedings of the Conference on Learning Theory (COLT)},
+  year = {2023},
+  note = {<span class="highlight">Oral Presentation</span> at ICML’23 Workshop
+          on PAC-Bayes Meets Interactive Learning},
 }
 
 @inproceedings{jang22popart,
   author = {Kyoungseok Jang and Chicheng Zhang and Kwang-Sung Jun},
-  title = {PopArt: Efficient Sparse Regression and Experimental Design for Optimal Sparse Linear Bandits},
-booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  title = {PopArt: Efficient Sparse Regression and Experimental Design for
+           Optimal Sparse Linear Bandits},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
   year = {2022},
 }
 
 @inproceedings{kim22improved,
-author = {Kim, Yeoneung and Yang, Insoon and Jun, Kwang-Sung},
-booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
-title = {{Improved regret analysis for variance-adaptive linear bandits and horizon-free linear mixture mdps}},
-year = {2022}
+  author = {Kim, Yeoneung and Yang, Insoon and Jun, Kwang-Sung},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  title = {{Improved regret analysis for variance-adaptive linear bandits and
+           horizon-free linear mixture mdps}},
+  year = {2022},
 }
 
 @article{faury22jointly,
-author = {Faury, Louis and Abeille, Marc and Jun, Kwang-Sung and Calauz{\`{e}}nes, Cl{\'{e}}ment},
-journal = {International Conference on Artificial Intelligence and Statistics (AISTATS)},
-title = {{Jointly Efficient and Optimal Algorithms for Logistic Bandits}},
-year = {2022}
+  author = {Faury, Louis and Abeille, Marc and Jun, Kwang-Sung and Calauz{\`{e}}
+            nes, Cl{\'{e}}ment},
+  journal = {International Conference on Artificial Intelligence and Statistics
+             (AISTATS)},
+  title = {{Jointly Efficient and Optimal Algorithms for Logistic Bandits}},
+  year = {2022},
 }
 
 @inproceedings{gales22norm,
-author = {Gales, Spencer Brady and Sethuraman, Sunder and Jun, Kwang-Sung},
-booktitle = {International Conference on Artificial Intelligence and Statistics (AISTATS)},
-title = {{Norm-Agnostic Linear Bandits}},
-year = {2022}
+  author = {Gales, Spencer Brady and Sethuraman, Sunder and Jun, Kwang-Sung},
+  booktitle = {International Conference on Artificial Intelligence and
+               Statistics (AISTATS)},
+  title = {{Norm-Agnostic Linear Bandits}},
+  year = {2022},
 }
 
 @article{bian22maillard,
-author = {Bian, Jie and Jun, Kwang-Sung},
-journal = {International Conference on Artificial Intelligence and Statistics (AISTATS)},
-title = {{Maillard Sampling: Boltzmann Exploration Done Optimally}},
-year = {2022},
-video={https://www.youtube.com/watch?v=JWNVXPihti0},
+  author = {Bian, Jie and Jun, Kwang-Sung},
+  journal = {International Conference on Artificial Intelligence and Statistics
+             (AISTATS)},
+  title = {{Maillard Sampling: Boltzmann Exploration Done Optimally}},
+  year = {2022},
+  video = {https://www.youtube.com/watch?v=JWNVXPihti0},
 }
 
 @article{mason22experimental,
-author = {Mason, Blake and Jun, Kwang-Sung and Jain, Lalit},
-journal = aaai,
-title = {An Experimental Design Approach for Regret Minimization in Logistic Bandits},
-year = {2022}
+  author = {Mason, Blake and Jun, Kwang-Sung and Jain, Lalit},
+  journal = aaai,
+  title = {An Experimental Design Approach for Regret Minimization in Logistic
+           Bandits},
+  year = {2022},
 }
 
 @article{jun21improved,
-author = {Jun, Kwang-Sung and Jain, Lalit and Mason, Blake and Nassif, Houssam},
-journal = {Proceedings of the International Conference on Machine Learning (ICML)},
-title = {{Improved Confidence Bounds for the Linear Logistic Model and Applications to Linear Bandits}},
-year = {2021}
+  author = {Jun, Kwang-Sung and Jain, Lalit and Mason, Blake and Nassif, Houssam
+            },
+  journal = {Proceedings of the International Conference on Machine Learning
+             (ICML)},
+  title = {{Improved Confidence Bounds for the Linear Logistic Model and
+           Applications to Linear Bandits}},
+  year = {2021},
 }
 
 @inproceedings{jang21improved,
-author = {Jang, Kyoungseok and Jun, Kwang-Sung and Yun, Se Young and Kang, Wanmo},
-booktitle = {Proceedings of the International Conference on Machine Learning (ICML)},
-pages = {3163--3172},
-title = {{Improved Regret Bounds of Bilinear Bandits using Action Space Dimension Analysis}},
-year = {2021}
+  author = {Jang, Kyoungseok and Jun, Kwang-Sung and Yun, Se Young and Kang,
+            Wanmo},
+  booktitle = {Proceedings of the International Conference on Machine Learning
+               (ICML)},
+  pages = {3163--3172},
+  title = {{Improved Regret Bounds of Bilinear Bandits using Action Space
+           Dimension Analysis}},
+  year = {2021},
 }
 
 @inproceedings{park21transfer,
-author = {Park, Hyejin and Shin, Seiyun and Jun, Kwang-Sung and Ok, Jungseul},
-booktitle = {IEEE International Symposium on Information Theory (ISIT)},
-organization = {IEEE},
-pages = {1463--1468},
-title = {{Transfer Learning in Bandits with Latent Continuity}},
-year = {2021}
+  author = {Park, Hyejin and Shin, Seiyun and Jun, Kwang-Sung and Ok, Jungseul},
+  booktitle = {IEEE International Symposium on Information Theory (ISIT)},
+  organization = {IEEE},
+  pages = {1463--1468},
+  title = {{Transfer Learning in Bandits with Latent Continuity}},
+  year = {2021},
 }
 
 @article{jun20crush,
-  title={Crush optimism with pessimism: Structured bandits beyond asymptotic optimality},
-  author={Jun, Kwang-Sung and Zhang, Chicheng},
-  journal={Advances in Neural Information Processing Systems (NeurIPS)},
-  volume={33},
-  pages={6366--6376},
-  year={2020},
-  slides={https://kwangsungjun.github.io/data/2020-crop-slides-rltheory.pdf},
-  video={https://www.youtube.com/watch?v=S8dluBz4lMU},
+  title = {Crush optimism with pessimism: Structured bandits beyond asymptotic
+           optimality},
+  author = {Jun, Kwang-Sung and Zhang, Chicheng},
+  journal = {Advances in Neural Information Processing Systems (NeurIPS)},
+  volume = {33},
+  pages = {6366--6376},
+  year = {2020},
+  slides = {https://kwangsungjun.github.io/data/2020-crop-slides-rltheory.pdf},
+  video = {https://www.youtube.com/watch?v=S8dluBz4lMU},
 }
 
 @inproceedings{jun19kernel,
- author = {Jun, Kwang-Sung and Cutkosky, Ashok and Orabona, Francesco},
- booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
- title = {Kernel Truncated Randomized Ridge Regression: Optimal Rates and Low Noise Acceleration},
- year = {2019},
- poster={https://kwangsungjun.github.io/data/2019-kernel-poster.pdf},
- slides={https://kwangsungjun.github.io/data/2019-kernel-slides.pdf},
+  author = {Jun, Kwang-Sung and Cutkosky, Ashok and Orabona, Francesco},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  title = {Kernel Truncated Randomized Ridge Regression: Optimal Rates and Low
+           Noise Acceleration},
+  year = {2019},
+  poster = {https://kwangsungjun.github.io/data/2019-kernel-poster.pdf},
+  slides = {https://kwangsungjun.github.io/data/2019-kernel-slides.pdf},
 }
 
-@InProceedings{jun19parameterfree,
-  title = 	 {Parameter-Free Online Convex Optimization with Sub-Exponential Noise},
-  author =       {Jun, Kwang-Sung and Orabona, Francesco},
-  booktitle = 	 {Proceedings of the Conference on Learning Theory (COLT)},
-  pages = 	 {1802--1823},
-  year = 	 {2019},
-  volume = 	 {99},
+@inproceedings{jun19parameterfree,
+  title = {Parameter-Free Online Convex Optimization with Sub-Exponential Noise},
+  author = {Jun, Kwang-Sung and Orabona, Francesco},
+  booktitle = {Proceedings of the Conference on Learning Theory (COLT)},
+  pages = {1802--1823},
+  year = {2019},
+  volume = {99},
 }
 
 @inproceedings{jun19parameterfree2,
-author = {Jun, Kwang-Sung and Orabona, Francesco},
-booktitle = {NeurIPS Workshop on Privacy in Machine Learning (PriML)},
-title = {{Parameter-Free Locally Differentially Private Stochastic Subgradient Descent}},
-year = {2019},
-poster={https://kwangsungjun.github.io/data/2019-priml-poster.pdf},
+  author = {Jun, Kwang-Sung and Orabona, Francesco},
+  booktitle = {NeurIPS Workshop on Privacy in Machine Learning (PriML)},
+  title = {{Parameter-Free Locally Differentially Private Stochastic Subgradient
+           Descent}},
+  year = {2019},
+  poster = {https://kwangsungjun.github.io/data/2019-priml-poster.pdf},
 }
 
 @inproceedings{jun19bilinear,
-author = {Jun, Kwang-Sung and Willett, Rebecca and Wright, Stephen and Nowak, Robert},
-booktitle = {Proceedings of the International Conference on Machine Learning (ICML)},
-pages = {3163--3172},
-title = {Bilinear Bandits with Low-rank Structure},
-volume = {97},
-year = {2019},
-code = {https://github.com/kwangsungjun/lrbandit},
+  author = {Jun, Kwang-Sung and Willett, Rebecca and Wright, Stephen and Nowak,
+            Robert},
+  booktitle = {Proceedings of the International Conference on Machine Learning
+               (ICML)},
+  pages = {3163--3172},
+  title = {Bilinear Bandits with Low-rank Structure},
+  volume = {97},
+  year = {2019},
+  code = {https://github.com/kwangsungjun/lrbandit},
 }
 
 @inproceedings{jun18adversarial,
-author = {Jun, Kwang-Sung and Ma, Y. and Li, L. and Zhu, Xiaojin},
-booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
-issn = {10495258},
-title = {{Adversarial attacks on stochastic bandits}},
-year = {2018}
+  author = {Jun, Kwang-Sung and Ma, Y. and Li, L. and Zhu, Xiaojin},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  issn = {10495258},
+  title = {{Adversarial attacks on stochastic bandits}},
+  year = {2018},
 }
 
 @inproceedings{ma18data,
-author = {Ma, Yuzhe and Jun, Kwang-Sung and Li, Lihong and Zhu, Xiaojin},
-booktitle = {Conference on Decision and Game Theory for Security (GameSec)},
-title = {{Data Poisoning Attacks in Contextual Bandits}},
-year = {2018}
+  author = {Ma, Yuzhe and Jun, Kwang-Sung and Li, Lihong and Zhu, Xiaojin},
+  booktitle = {Conference on Decision and Game Theory for Security (GameSec)},
+  title = {{Data Poisoning Attacks in Contextual Bandits}},
+  year = {2018},
 }
 
 @incollection{jun18bayesian,
-title = {Bayesian Active Learning on Graphs},
-editor = {Petar M. Djurić and Cédric Richard},
-booktitle = {Cooperative and Graph Signal Processing},
-publisher = {Academic Press},
-pages = {283-297},
-year = {2018},
-isbn = {978-0-12-813677-5},
-author = {Kwang-Sung Jun and Robert Nowak},
+  title = {Bayesian Active Learning on Graphs},
+  editor = {Petar M. Djurić and Cédric Richard},
+  booktitle = {Cooperative and Graph Signal Processing},
+  publisher = {Academic Press},
+  pages = {283-297},
+  year = {2018},
+  isbn = {978-0-12-813677-5},
+  author = {Kwang-Sung Jun and Robert Nowak},
 }
 
 @article{jun17online,
-author = {Jun, Kwang-Sung and Orabona, Francesco and Wright, Stephen and Willett, Rebecca},
-doi_ = {10.1214/17-EJS1379SI},
-issn = {1935-7524},
-journal = {Electronic Journal of Statistics (EJS)},
-number = {2},
-pages = {5282--5310},
-title = {{Online learning for changing environments using coin betting}},
-volume = {11},
-year = {2017}
+  author = {Jun, Kwang-Sung and Orabona, Francesco and Wright, Stephen and
+            Willett, Rebecca},
+  doi_ = {10.1214/17-EJS1379SI},
+  issn = {1935-7524},
+  journal = {Electronic Journal of Statistics (EJS)},
+  number = {2},
+  pages = {5282--5310},
+  title = {{Online learning for changing environments using coin betting}},
+  volume = {11},
+  year = {2017},
 }
 
 @inproceedings{jun17improved,
-author = {Jun, Kwang-Sung and Orabona, Francesco and Wright, Stephen and Willett, Rebecca},
-booktitle = {Proceedings of the International Conference on Artificial Intelligence and Statistics (AISTATS)},
-pages = {943--951},
-title = {{Improved Strongly Adaptive Online Learning using Coin Betting}},
-volume = {54},
-additional_info = {, <span class="highlight">Oral Presentation</span>},
-year = {2017}
+  author = {Jun, Kwang-Sung and Orabona, Francesco and Wright, Stephen and
+            Willett, Rebecca},
+  booktitle = {Proceedings of the International Conference on Artificial
+               Intelligence and Statistics (AISTATS)},
+  pages = {943--951},
+  title = {{Improved Strongly Adaptive Online Learning using Coin Betting}},
+  volume = {54},
+  additional_info = {, <span class="highlight">Oral Presentation</span>},
+  year = {2017},
 }
 
 @inproceedings{jun17scalable,
-author = {Jun, Kwang-Sung and Bhargava, Aniruddha and Nowak, Robert and Willett, Rebecca},
-booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
-pages = {99--109},
-title = {{Scalable Generalized Linear Bandits: Online Computation and Hashing}},
-year = {2017},
-code = {https://kwangsungjun.github.io/data/code-gloc-20180510.zip}
+  author = {Jun, Kwang-Sung and Bhargava, Aniruddha and Nowak, Robert and
+            Willett, Rebecca},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  pages = {99--109},
+  title = {{Scalable Generalized Linear Bandits: Online Computation and Hashing}
+           },
+  year = {2017},
+  code = {https://kwangsungjun.github.io/data/code-gloc-20180510.zip},
 }
 
-@InProceedings{meng17identifying,
-author="Meng, Xiaozhu
-and Miller, Barton P.
-and Jun, Kwang-Sung",
-editor="Foley, Simon N.
-and Gollmann, Dieter
-and Snekkenes, Einar",
-title="Identifying Multiple Authors in a Binary Program",
-booktitle="Computer Security -- ESORICS 2017",
-year="2017",
-pages="286--304"
+@inproceedings{meng17identifying,
+  author = "Meng, Xiaozhu and Miller, Barton P. and Jun, Kwang-Sung",
+  editor = "Foley, Simon N. and Gollmann, Dieter and Snekkenes, Einar",
+  title = "Identifying Multiple Authors in a Binary Program",
+  booktitle = "Computer Security -- ESORICS 2017",
+  year = "2017",
+  pages = "286--304",
 }
 
 
 
 @inproceedings{jun16graph,
-author = {Jun, Kwang-Sung and Nowak, Robert},
-booktitle = {IEEE Global Conference on Signal and Information Processing (GlobalSIP) Symposium on Non-Commutative Theory and Applications},
-pages = {1325--1329},
-title = {{Graph-based active learning: A new look at expected error minimization}},
-year = {2016}
+  author = {Jun, Kwang-Sung and Nowak, Robert},
+  booktitle = {IEEE Global Conference on Signal and Information Processing
+               (GlobalSIP) Symposium on Non-Commutative Theory and Applications},
+  pages = {1325--1329},
+  title = {{Graph-based active learning: A new look at expected error
+           minimization}},
+  year = {2016},
 }
 
 @inproceedings{zemla16uinvite,
-author = {Zemla, Jeffrey C and Kenett, Yoed N and Jun, Kwang-Sung and Austerweil, Joseph L},
-booktitle = {Proceedings of the Annual Meeting of the Cognitive Science Society (CogSci)},
-pages = {1907--1912},
-title = {{U-INVITE: Estimating Individual Semantic Networks from Fluency Data.}},
-year = {2016}
+  author = {Zemla, Jeffrey C and Kenett, Yoed N and Jun, Kwang-Sung and
+            Austerweil, Joseph L},
+  booktitle = {Proceedings of the Annual Meeting of the Cognitive Science
+               Society (CogSci)},
+  pages = {1907--1912},
+  title = {{U-INVITE: Estimating Individual Semantic Networks from Fluency Data.
+           }},
+  year = {2016},
 }
 
 @inproceedings{jun16anytime,
-author = {Jun, Kwang-Sung and Nowak, Robert},
-booktitle = {Proceedings of the International Conference on Machine Learning (ICML)},
-pages = {974--982},
-title = {{Anytime exploration for multi-armed bandits using confidence information}},
-year = {2016},
-award = {Emilie Kaufmann and her group have pointed out an error in this paper.  Specifically, the paper's Lemma 7 and 8 is likely to be false. In an attempt to fix this, I realized that the stopping time's tail probability should be controlled exponentially rather than polynomially. This led to our ICML'25 "Fixing the Loose Breke" paper that guarantees an exponential tail. We have not tried hard to see if this helps resolve the issue we had in the original paper, though.  }, 
-award_name = {post-publication note},            
+  author = {Jun, Kwang-Sung and Nowak, Robert},
+  booktitle = {Proceedings of the International Conference on Machine Learning
+               (ICML)},
+  pages = {974--982},
+  title = {{Anytime exploration for multi-armed bandits using confidence
+           information}},
+  year = {2016},
+  award = {Emilie Kaufmann and her group have pointed out an error in this
+           paper. Specifically, the paper's Lemma 7 and 8 is likely to be false.
+           In an attempt to fix this, I realized that the stopping time's tail
+           probability should be controlled exponentially rather than
+           polynomially. This led to our ICML'25 "Fixing the Loose Breke" paper
+           that guarantees an exponential tail. We have not tried hard to see if
+           this helps resolve the issue we had in the original paper, though. },
+  award_name = {post-publication note},
 }
 
 @inproceedings{jun16top,
-author = {Jun, Kwang-Sung and Jamieson, Kevin and Nowak, Robert and Zhu, Xiaojin},
-booktitle = aistats,
-title = {{Top arm identification in multi-armed bandits with batch arm pulls}},
-year = {2016}
+  author = {Jun, Kwang-Sung and Jamieson, Kevin and Nowak, Robert and Zhu,
+            Xiaojin},
+  booktitle = aistats,
+  title = {{Top arm identification in multi-armed bandits with batch arm pulls}},
+  year = {2016},
 }
 
 phdthesis{jun15some,
@@ -473,35 +554,38 @@ phdthesis{jun15some,
 }
 
 @inproceedings{jun15human,
-author = {Jun, Kwang-Sung and Zhu, Xiaojin and Rogers, T. and Yang, Z. and Yuan, M.},
-booktitle = neurips,
-pages = {1072--1080},
-title = {{Human memory search as initial-visit emitting random walk}},
-year = {2015}
+  author = {Jun, Kwang-Sung and Zhu, Xiaojin and Rogers, T. and Yang, Z. and
+            Yuan, M.},
+  booktitle = neurips,
+  pages = {1072--1080},
+  title = {{Human memory search as initial-visit emitting random walk}},
+  year = {2015},
 }
 
 @inproceedings{jun13learning,
-author = {Jun, Kwang-Sung and Zhu, Xiaojin and Settles, B. and Rogers, Timothy T.},
-booktitle = icml,
-title = {{Learning from human-generated lists}},
-year = {2013},
-code={https://kwangsungjun.github.io/data/swirl_code_data_v2.zip},
-video={http://www.youtube.com/watch?v=V4TDynR2gPQ},
+  author = {Jun, Kwang-Sung and Zhu, Xiaojin and Settles, B. and Rogers, Timothy
+            T.},
+  booktitle = icml,
+  title = {{Learning from human-generated lists}},
+  year = {2013},
+  code = {https://kwangsungjun.github.io/data/swirl_code_data_v2.zip},
+  video = {http://www.youtube.com/watch?v=V4TDynR2gPQ},
 }
 
 @inproceedings{xu12learning,
-author = {Xu, Jun-Ming and Jun, Kwang-Sung and Zhu, Xiaojin and Bellmore, Amy},
-booktitle = naacl,
-pages = {656--666},
-title = {{Learning from Bullying Traces in Social Media}},
-year = {2012}
+  author = {Xu, Jun-Ming and Jun, Kwang-Sung and Zhu, Xiaojin and Bellmore, Amy},
+  booktitle = naacl,
+  pages = {656--666},
+  title = {{Learning from Bullying Traces in Social Media}},
+  year = {2012},
 }
 
 @inproceedings{zhu10cognitive,
-author = {Zhu, Xiaojin and Gibson, B.R. and Jun, Kwang-Sung and Rogers, Timothy T. and Harrison, J. and Kalish, C.},
-booktitle = icml,
-title = {{Cognitive models of test-item effects in human category learning}},
-year = {2010}
+  author = {Zhu, Xiaojin and Gibson, B.R. and Jun, Kwang-Sung and Rogers,
+            Timothy T. and Harrison, J. and Kalish, C.},
+  booktitle = icml,
+  title = {{Cognitive models of test-item effects in human category learning}},
+  year = {2010},
 }
 
 
