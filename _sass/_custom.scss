@@ -246,3 +246,13 @@ b {
   font-size: 1.15em;
   color: var(--global-text-color-light);
 }
+
+// Full news list (/news/, wrapped in .news-page by _pages/news.md): tighten
+// the vertical gap between items. The rows get their spacing from the
+// theme's ".table-sm td, .table-sm th" cell padding (0.6rem top and bottom);
+// halved here. The shorter news list on the about page is not affected.
+.news-page .news .table-sm td,
+.news-page .news .table-sm th {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
