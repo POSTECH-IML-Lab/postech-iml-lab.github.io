@@ -87,11 +87,11 @@ map_id: 1E8SKAJD00Rq0Y9un6s9SniqBEXI5cBk
 
 <div class="iml-address-locations">
   <section class="iml-address-location">
-    <h3><span class="iml-address-pin iml-address-pin--office" aria-hidden="true"></span>Principal Investigator's Office</h3>
-    <p>RIST Building 4 (RIST 4동) <span class="iml-address-room">Room 4410</span></p>
-  </section>
-  <section class="iml-address-location">
     <h3><span class="iml-address-pin iml-address-pin--lab" aria-hidden="true"></span>Lab</h3>
     <p>POSTECH PIAI (인공지능연구원) <span class="iml-address-room">Room 421</span></p>
+  </section>
+  <section class="iml-address-location">
+    <h3><span class="iml-address-pin iml-address-pin--office" aria-hidden="true"></span>Principal Investigator's Office</h3>
+    <p>RIST Building 4 (RIST 4동) <span class="iml-address-room">Room 4410</span></p>
   </section>
 </div>
