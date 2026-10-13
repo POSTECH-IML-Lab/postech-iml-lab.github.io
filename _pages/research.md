@@ -88,7 +88,7 @@ nav_order: 3
     <ul class="iml-research-subtopics">
       <li>A unified theoretical framework for LLM Alignment from distribution learning viewpoint<span class="iml-venue">(arXiv'25)</span></li>
       <li>Theoretical guarantees of the popular heuristic called 'online DPO' and its generalization <span class="iml-venue">(ICML'26)</span></li>
-      <li>Abandon clipping in policy optimization and use signed logarithmic smoothing! This gives higher rewards with higher entropy (beneficial for test-time scaling)! <span class="iml-venue">(NeurIPS'26)</span></li>
+      <li>Abandon clipping in policy optimization and use signed logarithmic smoothing! This gives higher rewards with <i>higher</i> entropy (better for exploration/test-time scaling)! <span class="iml-venue">(NeurIPS'26)</span></li>
     </ul>
   </p>
 </div>

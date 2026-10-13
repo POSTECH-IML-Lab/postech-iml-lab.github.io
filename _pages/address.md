@@ -1,7 +1,7 @@
 ---
 layout: page
-title: address
-permalink: /address/
+title: location
+permalink: /location/
 nav: true
 nav_order: 8
 map_id: 1E8SKAJD00Rq0Y9un6s9SniqBEXI5cBk
@@ -30,11 +30,29 @@ map_id: 1E8SKAJD00Rq0Y9un6s9SniqBEXI5cBk
     padding: 2rem 0;
     border-bottom: 1px solid rgba(127, 127, 127, 0.2);
   }
-  .iml-address-location h2 {
+  .iml-address-location h3 {
     margin: 0 0 0.25rem;
+    font-size: 1.15rem;
+    font-weight: 600;
   }
   .iml-address-location p {
     margin: 0;
+  }
+  /* Pin colors mirror the marker colors set in the embedded Google My Map
+     (lab = #E65100, PI's office = #0288D1). Update both if the map changes. */
+  .iml-address-pin {
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    margin-right: 0.45em;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(-45deg);
+  }
+  .iml-address-pin--lab {
+    background: #e65100;
+  }
+  .iml-address-pin--office {
+    background: #0288d1;
   }
   .iml-address-room {
     display: block;
@@ -69,11 +87,11 @@ map_id: 1E8SKAJD00Rq0Y9un6s9SniqBEXI5cBk
 
 <div class="iml-address-locations">
   <section class="iml-address-location">
-    <h2>Principal Investigator's Office</h2>
-    <p>RIST Building 4 <span class="iml-address-room">Room 4410</span></p>
+    <h3><span class="iml-address-pin iml-address-pin--office" aria-hidden="true"></span>Principal Investigator's Office</h3>
+    <p>RIST Building 4 (RIST 4동) <span class="iml-address-room">Room 4410</span></p>
   </section>
   <section class="iml-address-location">
-    <h2>Lab</h2>
+    <h3><span class="iml-address-pin iml-address-pin--lab" aria-hidden="true"></span>Lab</h3>
     <p>POSTECH PIAI (인공지능연구원) <span class="iml-address-room">Room 421</span></p>
   </section>
 </div>
