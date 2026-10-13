@@ -113,7 +113,7 @@ nav_order: 7
   <div class="iml-grid">
     <div class="iml-card">
       <div class="iml-avatar iml-avatar--zoom"><img src="{{ '/assets/img/members/kwang-sung-jun.jpg' | relative_url }}" alt="Kwang-Sung Jun" loading="lazy"></div>
-      <p class="iml-name"><a href="https://kwangsungjun.github.io/">Kwang-Sung Jun</a></p>
+      <p class="iml-name"><a href="https://kwangsungjun.github.io/">Kwang-Sung (Kwang) Jun</a></p>
       <span class="iml-role">Principal Investigator</span>
     </div>
     <div class="iml-card">
