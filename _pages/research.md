@@ -86,8 +86,9 @@ nav_order: 3
     We are currently developing efficient algorithms inspired by learning theory and evaluating them on real-world tasks.
     Some of these efforts are in collaboration with <a href="https://www.krafton.ai/en/">Krafton AI</a>.
     <ul class="iml-research-subtopics">
-      <li>A unified theoretical framework for LLM Alignment <span class="iml-venue">(arXiv'25)</span></li>
+      <li>A unified theoretical framework for LLM Alignment from distribution learning viewpoint<span class="iml-venue">(arXiv'25)</span></li>
       <li>Theoretical guarantees of the popular heuristic called 'online DPO' and its generalization <span class="iml-venue">(ICML'26)</span></li>
+      <li>Abandon clipping in policy optimization and use signed logarithmic smoothing! This gives higher rewards with higher entropy (beneficial for test-time scaling)! <span class="iml-venue">(NeurIPS'26)</span></li>
     </ul>
   </p>
 </div>
@@ -134,7 +135,7 @@ against exploiting what already works well.
   <div class="iml-research-icon"><i class="fa-solid fa-shield-halved"></i></div>
   <div class="iml-research-body">
 
-<h2>Learning theory</h2>
+<h2>Learning theory/statistics</h2>
 <p>
   We develop learning-theoretic tools for designing statistically efficient machine learning algorithms. 
   Our work spans both general learning theory, including methods that adapt to favorable properties of the data such as low noise, and practical confidence bounds for quantifying statistical uncertainty. 
