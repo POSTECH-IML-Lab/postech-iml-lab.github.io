@@ -3,7 +3,7 @@ layout: page
 title: location
 permalink: /location/
 nav: true
-nav_order: 8
+nav_order: 9
 map_id: 1E8SKAJD00Rq0Y9un6s9SniqBEXI5cBk
 ---
 
@@ -70,8 +70,6 @@ map_id: 1E8SKAJD00Rq0Y9un6s9SniqBEXI5cBk
     }
   }
 </style>
-
-## Locations
 
 <div class="iml-address-map">
   <iframe
