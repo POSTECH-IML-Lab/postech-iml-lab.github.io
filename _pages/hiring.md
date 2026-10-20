@@ -11,7 +11,7 @@ We generally prefer those with great communication skills.
 
 ### What we work on
 
-Besides what We listed in [research]({{ '/research/' | relative_url }}), We are recently interested in scaling verification, training better reward/feedback models, conformal prediction, and RL with rich feedback.
+Besides what we listed in [research]({{ '/research/' | relative_url }}), we are recently interested in scaling verification, training better reward/feedback models, conformal prediction, and RL with rich feedback.
 
 ### Theory and practice
 
